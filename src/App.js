@@ -14,8 +14,6 @@ function App() {
       </h1>
       <Video />
       <Descriptions />
-      <Leaderboard />
-      <UserInput />
     </div>
   );
 }

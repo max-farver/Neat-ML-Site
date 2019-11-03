@@ -4,7 +4,7 @@ const handleSubmit = e => {
   e.preventDefault();
   const data = new FormData(e.target);
 
-  fetch('https://neat-ouybuaq47q-uc.a.run.app', {
+  fetch('http://127.0.0.1:8080', {
     method: 'POST',
     body: data
   });
